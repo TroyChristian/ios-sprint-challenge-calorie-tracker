@@ -14,7 +14,10 @@
 		FB5A176723E48D4900864C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5A176523E48D4900864C52 /* Main.storyboard */; };
 		FB5A176923E48D4C00864C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5A176823E48D4C00864C52 /* Assets.xcassets */; };
 		FB5A176C23E48D4C00864C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5A176A23E48D4C00864C52 /* LaunchScreen.storyboard */; };
-		FB5A177623E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177423E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodeld */; };
+		FB5A177623E4C97C00864C52 /* CalorieTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177423E4C97C00864C52 /* CalorieTracker.xcdatamodeld */; };
+		FB5A177923E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177823E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift */; };
+		FB5A177B23E4DFFD00864C52 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177A23E4DFFD00864C52 /* CoreDataStack.swift */; };
+		FB5A177D23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177C23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		FB5A176B23E48D4C00864C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB5A176D23E48D4D00864C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5A177523E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaloricIntakeEntry.xcdatamodel; sourceTree = "<group>"; };
+		FB5A177823E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CaloricIntakeEntry+Convenience.swift"; sourceTree = "<group>"; };
+		FB5A177A23E4DFFD00864C52 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		FB5A177C23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloricIntakeEntryRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +103,10 @@
 		FB5A177723E4C99100864C52 /* CoreDataModel */ = {
 			isa = PBXGroup;
 			children = (
-				FB5A177423E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodeld */,
+				FB5A177423E4C97C00864C52 /* CalorieTracker.xcdatamodeld */,
+				FB5A177823E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift */,
+				FB5A177C23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift */,
+				FB5A177A23E4DFFD00864C52 /* CoreDataStack.swift */,
 			);
 			path = CoreDataModel;
 			sourceTree = "<group>";
@@ -235,9 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5A177D23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift in Sources */,
 				FB5A176423E48D4900864C52 /* ViewController.swift in Sources */,
+				FB5A177923E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift in Sources */,
 				FB5A176023E48D4900864C52 /* AppDelegate.swift in Sources */,
-				FB5A177623E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodeld in Sources */,
+				FB5A177B23E4DFFD00864C52 /* CoreDataStack.swift in Sources */,
+				FB5A177623E4C97C00864C52 /* CalorieTracker.xcdatamodeld in Sources */,
 				FB5A176223E48D4900864C52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,13 +452,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FB5A177423E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodeld */ = {
+		FB5A177423E4C97C00864C52 /* CalorieTracker.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				FB5A177523E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodel */,
 			);
 			currentVersion = FB5A177523E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodel */;
-			path = CaloricIntakeEntry.xcdatamodeld;
+			path = CalorieTracker.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
