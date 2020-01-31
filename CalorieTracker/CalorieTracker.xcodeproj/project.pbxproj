@@ -14,6 +14,7 @@
 		FB5A176723E48D4900864C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5A176523E48D4900864C52 /* Main.storyboard */; };
 		FB5A176923E48D4C00864C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5A176823E48D4C00864C52 /* Assets.xcassets */; };
 		FB5A176C23E48D4C00864C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5A176A23E48D4C00864C52 /* LaunchScreen.storyboard */; };
+		FB5A177623E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177423E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FB5A176823E48D4C00864C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5A176B23E48D4C00864C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB5A176D23E48D4D00864C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5A177523E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaloricIntakeEntry.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		FB5A175E23E48D4900864C52 /* CalorieTracker */ = {
 			isa = PBXGroup;
 			children = (
+				FB5A177723E4C99100864C52 /* CoreDataModel */,
 				FB5A175F23E48D4900864C52 /* AppDelegate.swift */,
 				FB5A176123E48D4900864C52 /* SceneDelegate.swift */,
 				FB5A176323E48D4900864C52 /* ViewController.swift */,
@@ -89,6 +92,14 @@
 				FB5A176D23E48D4D00864C52 /* Info.plist */,
 			);
 			path = CalorieTracker;
+			sourceTree = "<group>";
+		};
+		FB5A177723E4C99100864C52 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A177423E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodeld */,
+			);
+			path = CoreDataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +237,7 @@
 			files = (
 				FB5A176423E48D4900864C52 /* ViewController.swift in Sources */,
 				FB5A176023E48D4900864C52 /* AppDelegate.swift in Sources */,
+				FB5A177623E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodeld in Sources */,
 				FB5A176223E48D4900864C52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +438,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB5A177423E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB5A177523E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodel */,
+			);
+			currentVersion = FB5A177523E4C97C00864C52 /* CaloricIntakeEntry.xcdatamodel */;
+			path = CaloricIntakeEntry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FB5A175423E48D4900864C52 /* Project object */;
 }
