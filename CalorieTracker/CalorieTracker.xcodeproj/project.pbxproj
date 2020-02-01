@@ -10,7 +10,6 @@
 		02E0C928AD17558E95634E56 /* Pods_CalorieTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10892BFE711BF3D1FDC6050 /* Pods_CalorieTracker.framework */; };
 		FB5A176023E48D4900864C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A175F23E48D4900864C52 /* AppDelegate.swift */; };
 		FB5A176223E48D4900864C52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A176123E48D4900864C52 /* SceneDelegate.swift */; };
-		FB5A176423E48D4900864C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A176323E48D4900864C52 /* ViewController.swift */; };
 		FB5A176723E48D4900864C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5A176523E48D4900864C52 /* Main.storyboard */; };
 		FB5A176923E48D4C00864C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5A176823E48D4C00864C52 /* Assets.xcassets */; };
 		FB5A176C23E48D4C00864C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5A176A23E48D4C00864C52 /* LaunchScreen.storyboard */; };
@@ -18,6 +17,7 @@
 		FB5A177923E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177823E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift */; };
 		FB5A177B23E4DFFD00864C52 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177A23E4DFFD00864C52 /* CoreDataStack.swift */; };
 		FB5A177D23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177C23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift */; };
+		FB5A178223E505F700864C52 /* CalorieIntakeEntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A178123E505F700864C52 /* CalorieIntakeEntryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,6 @@
 		FB5A175C23E48D4900864C52 /* CalorieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5A175F23E48D4900864C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB5A176123E48D4900864C52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB5A176323E48D4900864C52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB5A176623E48D4900864C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB5A176823E48D4C00864C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5A176B23E48D4C00864C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		FB5A177823E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CaloricIntakeEntry+Convenience.swift"; sourceTree = "<group>"; };
 		FB5A177A23E4DFFD00864C52 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		FB5A177C23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloricIntakeEntryRepresentation.swift; sourceTree = "<group>"; };
+		FB5A178123E505F700864C52 /* CalorieIntakeEntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieIntakeEntryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +70,7 @@
 		FB5A175323E48D4900864C52 = {
 			isa = PBXGroup;
 			children = (
+				FB5A178123E505F700864C52 /* CalorieIntakeEntryController.swift */,
 				FB5A175E23E48D4900864C52 /* CalorieTracker */,
 				FB5A175D23E48D4900864C52 /* Products */,
 				C927B713081F6421079597F5 /* Pods */,
@@ -88,14 +89,11 @@
 		FB5A175E23E48D4900864C52 /* CalorieTracker */ = {
 			isa = PBXGroup;
 			children = (
-				FB5A177723E4C99100864C52 /* CoreDataModel */,
-				FB5A175F23E48D4900864C52 /* AppDelegate.swift */,
-				FB5A176123E48D4900864C52 /* SceneDelegate.swift */,
-				FB5A176323E48D4900864C52 /* ViewController.swift */,
-				FB5A176523E48D4900864C52 /* Main.storyboard */,
 				FB5A176823E48D4C00864C52 /* Assets.xcassets */,
-				FB5A176A23E48D4C00864C52 /* LaunchScreen.storyboard */,
 				FB5A176D23E48D4D00864C52 /* Info.plist */,
+				FB5A177723E4C99100864C52 /* CoreDataModel */,
+				FB5A177E23E4F0EC00864C52 /* App&SceneDelegates */,
+				FB5A177F23E4F10A00864C52 /* StoryBoards */,
 			);
 			path = CalorieTracker;
 			sourceTree = "<group>";
@@ -109,6 +107,24 @@
 				FB5A177A23E4DFFD00864C52 /* CoreDataStack.swift */,
 			);
 			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		FB5A177E23E4F0EC00864C52 /* App&SceneDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A175F23E48D4900864C52 /* AppDelegate.swift */,
+				FB5A176123E48D4900864C52 /* SceneDelegate.swift */,
+			);
+			path = "App&SceneDelegates";
+			sourceTree = "<group>";
+		};
+		FB5A177F23E4F10A00864C52 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A176523E48D4900864C52 /* Main.storyboard */,
+				FB5A176A23E48D4C00864C52 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5A177D23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift in Sources */,
-				FB5A176423E48D4900864C52 /* ViewController.swift in Sources */,
+				FB5A178223E505F700864C52 /* CalorieIntakeEntryController.swift in Sources */,
 				FB5A177923E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift in Sources */,
 				FB5A176023E48D4900864C52 /* AppDelegate.swift in Sources */,
 				FB5A177B23E4DFFD00864C52 /* CoreDataStack.swift in Sources */,
