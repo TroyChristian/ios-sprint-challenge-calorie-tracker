@@ -17,7 +17,8 @@
 		FB5A177923E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177823E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift */; };
 		FB5A177B23E4DFFD00864C52 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177A23E4DFFD00864C52 /* CoreDataStack.swift */; };
 		FB5A177D23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A177C23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift */; };
-		FB5A178223E505F700864C52 /* CalorieIntakeEntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A178123E505F700864C52 /* CalorieIntakeEntryController.swift */; };
+		FB5A178223E505F700864C52 /* CaloricIntakeEntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A178123E505F700864C52 /* CaloricIntakeEntryController.swift */; };
+		FB5A178423E5088E00864C52 /* CalorieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A178323E5088E00864C52 /* CalorieTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +36,8 @@
 		FB5A177823E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CaloricIntakeEntry+Convenience.swift"; sourceTree = "<group>"; };
 		FB5A177A23E4DFFD00864C52 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		FB5A177C23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloricIntakeEntryRepresentation.swift; sourceTree = "<group>"; };
-		FB5A178123E505F700864C52 /* CalorieIntakeEntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieIntakeEntryController.swift; sourceTree = "<group>"; };
+		FB5A178123E505F700864C52 /* CaloricIntakeEntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloricIntakeEntryController.swift; sourceTree = "<group>"; };
+		FB5A178323E5088E00864C52 /* CalorieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,8 @@
 		FB5A175323E48D4900864C52 = {
 			isa = PBXGroup;
 			children = (
-				FB5A178123E505F700864C52 /* CalorieIntakeEntryController.swift */,
+				FB5A178323E5088E00864C52 /* CalorieTableViewController.swift */,
+				FB5A178123E505F700864C52 /* CaloricIntakeEntryController.swift */,
 				FB5A175E23E48D4900864C52 /* CalorieTracker */,
 				FB5A175D23E48D4900864C52 /* Products */,
 				C927B713081F6421079597F5 /* Pods */,
@@ -261,7 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5A177D23E4E1CE00864C52 /* CaloricIntakeEntryRepresentation.swift in Sources */,
-				FB5A178223E505F700864C52 /* CalorieIntakeEntryController.swift in Sources */,
+				FB5A178223E505F700864C52 /* CaloricIntakeEntryController.swift in Sources */,
+				FB5A178423E5088E00864C52 /* CalorieTableViewController.swift in Sources */,
 				FB5A177923E4DF4300864C52 /* CaloricIntakeEntry+Convenience.swift in Sources */,
 				FB5A176023E48D4900864C52 /* AppDelegate.swift in Sources */,
 				FB5A177B23E4DFFD00864C52 /* CoreDataStack.swift in Sources */,

@@ -25,7 +25,7 @@ extension CaloricIntakeEntry {
     
     var caloricIntakeEntryRepresentation: CaloricIntakeEntryRepresentation? {
         guard let time = time else {return nil}
-        return caloricIntakeEntryRepresentation
+        return self.caloricIntakeEntryRepresentation
         
     }
 }
